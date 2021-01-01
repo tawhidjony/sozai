@@ -2132,6 +2132,45 @@ header {
   }
 }
 
+@media (max-width: 926px) {
+  .mobile-slider-area .slider-area {
+    max-width: 1200px;
+    height: 24.3rem;
+  }
+  .mobile-slider-area .slider-area .slider-display {
+    max-width: 210px;
+    height: auto;
+    top: 1rem;
+  }
+  .mobile-slider-area .slider-area .slider-display .slider-for .slider-img {
+    margin: auto 21px;
+    max-width: 180px;
+    height: auto;
+  }
+  .mobile-slider-area .slider-area .slider-display .slider-for .slider-img img {
+    max-width: 170px;
+    height: auto;
+  }
+  .mobile-slider-area .slider-area .slider-nav .slider-img {
+    max-width: 300px;
+    height: auto;
+    margin: 0 1.5rem;
+  }
+  .mobile-slider-area .slider-area .slider-nav .slider-img img {
+    max-width: 300px;
+    height: auto !important;
+  }
+  .mobile-slider-area .slider-area .mobile-img {
+    top: -140px;
+    width: 300px;
+  }
+  .mobile-slider-area .inside-background {
+    height: 245px;
+    width: 218px;
+    top: -20px;
+  }
+}
+
 @media (max-width: 823px) {
   .mobile-slider-area .slider-area {
     max-width: 1200px;
@@ -2293,6 +2332,93 @@ header {
     height: 200px;
     width: 148px;
     top: -20px;
+  }
+}
+
+@media (max-width: 428px) {
+  .mobile-slider-area .slider-area {
+    height: 33.3rem;
+  }
+  .mobile-slider-area .slider-area .slider-display {
+    max-width: 255px;
+    top: 1.7rem;
+  }
+  .mobile-slider-area .slider-area .slider-display .slider-for {
+    max-width: 245px;
+  }
+  .mobile-slider-area .slider-area .slider-display .slider-for .slider-img {
+    margin: auto 20px;
+    max-width: 205px;
+  }
+  .mobile-slider-area .slider-area .slider-display .slider-for .slider-img img {
+    max-width: 205px;
+  }
+  .mobile-slider-area .slider-area .slider-nav .slider-img {
+    max-width: 303px;
+    height: auto;
+    margin: auto 15px;
+  }
+  .mobile-slider-area .slider-area .slider-nav .slider-img img {
+    max-width: 303px;
+    height: auto !important;
+  }
+  .mobile-slider-area .slider-area .mobile-img {
+    top: -158px;
+    width: 350px;
+  }
+  .mobile-slider-area .inside-background {
+    height: 200px;
+    width: 250px;
+    top: -20px;
+  }
+  .blog-area .blogSliders {
+    margin-top: 4rem;
+  }
+  .blog-area .blogSliders .slick-list.draggable {
+    padding: 0 0 !important;
+    padding-left: 18px !important;
+    padding-right: 105px !important;
+  }
+  .blog-area .blogSliders .slick-slide {
+    padding: 0 0 !important;
+    margin: 0 0px;
+  }
+  .blog-area .blogSliders .slick-slide .blog-card {
+    margin-top: 5rem;
+    margin: 0 0;
+    width: 262px;
+    height: 318px;
+  }
+  .blog-area .blogSliders .slick-slide .blog-card .blog-img {
+    width: 262px;
+    height: 162px;
+    text-align: center;
+  }
+  .blog-area .blogSliders .slick-slide .blog-card .blog-img img {
+    width: 258px;
+    height: 162px;
+    margin: auto;
+  }
+  .blog-area .blogSliders .slick-slide .blog-card .blog-title {
+    margin: 0 0;
+    margin-top: 30px;
+    height: 68px;
+    margin-bottom: 20px;
+  }
+  .blog-area .blogSliders .slick-slide .blog-card .blog-title h3 {
+    font-size: 1.4rem;
+  }
+  .blog-area .blogSliders .slick-slide .blog-card .blog-footer {
+    padding-top: 0rem;
+  }
+  .blog-area .blogSliders .slick-slide .blog-card .blog-footer .span-left {
+    display: none;
+  }
+  .blog-area .blogSliders .slick-slide .blog-card .blog-footer .span-right {
+    float: left;
+  }
+  .blog-area .blogSliders .slick-slide .blog-card .blog-footer .span-right h5 {
+    font-size: 10px;
   }
 }
 
@@ -2490,27 +2616,3 @@ header {
 /* -------------------------------- */
 /* -- --slider responsive end------ */
 /* -------------------------------- */
-@media only screen and (min-width: 428px) and (max-width: 767px) {
-  .mobile-slider-area .slider-area {
-    height: 21.3rem;
-  }
-  .mobile-slider-area .slider-area .slider-display {
-    max-width: 160px;
-  }
-  .mobile-slider-area .slider-area .slider-display .slider-for .slider-img {
-    margin: auto 15px;
-    max-width: 130px;
-  }
-  .mobile-slider-area .slider-area .slider-display .slider-for .slider-img img {
-    max-width: 130px;
-  }
-  .mobile-slider-area .slider-area .mobile-img {
-    top: -113px;
-    width: 234px;
-  }
-  .mobile-slider-area .inside-background {
-    height: 200px;
-    width: 184px;
-    top: -20px;
-  }
-}
